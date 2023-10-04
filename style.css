@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+    background-color: black;
+    color: white;
+}
+
+#scroll{
+    overflow-y: hidden;
+}
+
+h2{
+    margin: 20px;
+}
+
+.post{
+    background-color:rgba(87, 90, 133, 1);
+    color: rgba(184, 188, 204, 1);
+}
+
+
+#main{
+    display: flex;
+    flex-basis: 50%;
+    background-color: rgba(87, 90, 133, 1);
+}
+
+.left,.right{
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    background-color: black;
+    height: 100vh;
+    padding: 50px;
+}
+
+.left > h1{
+    color: #575a85;
+}
+.left > p{
+    color: rgba(184, 188, 204, 1);
+}
+.left > img{
+    width: 482px;
+    height: 450px;
+}
+
+#head{
+    display: none;
+    padding: 25px;
+}
+
+.right{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#btn{
+    display: block;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+#ipDetails{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+    column-gap: 100px;
+    justify-content: space-between;
+}
+
+#ipDetails > div{
+    width: 400px;
+    height: 50px;
+}
+
+#ipDetails > div > span{
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 50px;
+}
+
+#timeZone{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+
+#timeZone > div > span{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#map{
+    display: none;
+    margin: 20px;
+    border: 2px solid black;
+    height: 66vh;
+}
+
+#searchBoxed{
+    width: 97%;
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+#map{
+    color: rgba(184, 188, 204, 1);
+}
+
+#timeZone > h1{
+    color: rgba(184, 188, 204, 1);
+}
+
+#searchBoxed > h1{
+    color: rgba(184, 188, 204, 1);
+}
+#searchBoxed input{
+    box-sizing: border-box;
+    font-size: 17px;
+    padding: 9px 15px;
+    border: 3px solid rgba(87, 90, 133, 1);
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+#postOfficeList{
+    margin: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    row-gap: 15px;
+    column-gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* background-color:rgba(87, 90, 133, 1); */
+}
+#postOfficeList ul{
+    width: 300px;
+    margin: 15px 0;
+    list-style: none;
+    border: 2px solid black;
+     background-color:rgba(87, 90, 133, 1); 
+     color: rgba(184, 188, 204, 1);
+    
+}
+#postOfficeList ul{
+    padding: 25px;
+    /* background-color:rgba(87, 90, 133, 1); */
+}
+#postOfficeList ul li{
+    /* border: 1px solid red; */
+    margin: 15px 0;
+    font-size: 20px;
+
+}
